@@ -2,12 +2,12 @@
     "variables": {
 
         "name-base": "WINDOWS-2016-JENKINS-SLAVE",
-        "build-region": "us-west-2",
-        "build-vpc": "<yourvpchere>",
-        "build-subnet": "subnet-<yoursubnethere>",
-        "build-secgrp": "sg-<yoursecuritygrouphere>",
+        "build-region": "us-east-1d",
+        "build-vpc": "vpc-a5d986c3",
+        "build-subnet": "subnet-aabeba87",
+        "build-secgrp": "sg-07548b984a6715cff",
         "build-time": "{{isotime \"2006-01-02\"}}",
-        "aws_ami_region": "us-west-2"
+        "aws_ami_region": "us-east-1d"
     },
     "builders": [
       {
