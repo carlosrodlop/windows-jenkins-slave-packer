@@ -17,7 +17,7 @@
         "encrypt_boot": "true",
         "region": "{{user `build-region`}}",
         "region_kms_key_ids": {
-            "us-west-2": "alias/aws/ebs"
+            "us-east-1d": "alias/aws/ebs"
         },
         "ami_regions": "{{user `aws_ami_region`}}",
         "instance_type": "t3.medium",
@@ -63,7 +63,7 @@
       {
         "type": "powershell",
         "scripts": [
-            "./Enable_smb.ps1",           
+            "./Enable_smb.ps1"          
         ]
       },
       {
